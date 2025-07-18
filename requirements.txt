@@ -1,0 +1,23 @@
+# Core Libraries
+numpy>=1.21.0          # For numerical operations (arrays, matrices)
+pillow>=8.4.0          # For image processing (loading/saving images)
+matplotlib>=3.4.3      # For visualization (plots, graphs)
+seaborn 
+# Computer Vision
+opencv-python>=4.5.5.64        # For video processing, frame handling
+opencv-contrib-python>=4.5.5.64 # Additional OpenCV modules (tracking, etc.)
+
+# Deep Learning Framework
+torch>=1.12.0           # PyTorch for model loading and inference
+torchvision>=0.13.0     # Image transformations and pretrained models
+
+# Object Detection
+ultralytics>=8.0.20     # YOLOv8 implementation for vehicle detection
+
+# Tracking & Speed Estimation
+filterpy>=1.4.5         # For Kalman filter-based object tracking
+scikit-learn>=1.0       # For metrics, ML utilities (optional for tracking)
+
+# OCR for License Plate Recognition
+easyocr>=1.6.2          # Easy Optical Character Recognition
+pytesseract>=0.3.10     # Alternative OCR using Tesseract
